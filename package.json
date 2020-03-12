@@ -1,5 +1,5 @@
 {
-  "name": "mern-tutorial",
+  "name": "github-demo",
   "version": "1.0.0",
   "description": "Shopping list build with MERN",
   "main": "server.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://git-codecommit.us-east-1.amazonaws.com/v1/repos/mern-tutorial"
+    "url": "https://github.com/i-m-the-developer/github-demo"
   },
   "author": "Dinesh Thapa",
   "license": "ISC",
