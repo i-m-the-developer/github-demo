@@ -29,7 +29,7 @@ router.post("/", (req, res) => {
 
         jwt.sign(
                 { id: user.id }, //payload
-                process.env.mongoURI.jwtSecret, //jwt secret
+                process.env.jwtSecret, //jwt secret
                 { expiresIn: 3600 }, //optional //3600 = 1 hour
                 (err, token) => {
                   // call back function to send token
