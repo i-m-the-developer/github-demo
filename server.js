@@ -12,7 +12,6 @@ const app = express();
 app.use(express.json());
 
 //DB config
-//mongodb+srv://dinesh_thapa07:Diyaan%2377@dineshclusterone-xvqmh.mongodb.net/shoppinglist?retryWrites=true&w=majority
 const db = config.get("mongoURI");//
 
 //Connect to Mongo DB
