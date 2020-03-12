@@ -1,4 +1,3 @@
-const config = require("config");
 const jwt = require("jsonwebtoken");
 
 //this function sends along the jwt token sent from whether react app or from the rest api call from the tool like postman.
@@ -11,7 +10,7 @@ function auth(req, res, next) {
 
   try {
     //verify token
-    const decoded = jwt.verify(token, config.get("jwtSecret"));
+    const decoded = jwt.verify(token, process.env.mongoURI.jwtSecret);
 
     //Add user from payload
 

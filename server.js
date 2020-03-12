@@ -30,7 +30,7 @@ app.use("/api/auth",usersAuthRoutes);
 
 
 //Serve static assest if in production : build folder index.html. Another words if not hitting the server api('/api/items')
-if (process.env.NODE_EBV === "production") {
+if (process.env.NODE_ENV === "production") {
   //Set static folder
   app.use(express.static("client/build"));
 
