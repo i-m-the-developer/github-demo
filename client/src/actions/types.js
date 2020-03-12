@@ -1,0 +1,17 @@
+export const USER_LOADING = 'USER_LOADING';
+export const USER_LOADED = 'USER_LOADED';
+export const AUTH_ERROR = 'AUTH_ERROR';
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS'
+export const LOGIN_FAIL = 'LOGIN_FAIL';
+export const LOGOUT_SUCCESS = 'LOGOUT_SUCCESS';
+export const REGISTER_SUCCESS = 'REGISTER_SUCCESS';
+export const REGISTER_FAIL = 'REGISTER_FAIL';
+export const CLEAR_ERRORS = 'CLEAR_ERRORS';
+export const GET_ERRORS = 'GETS_ERRORS';
+export const GET_JOBS = 'GET_JOBS';
+export const GET_JOB = 'GET_JOB';
+export const ADD_JOB = 'ADD_JOB';
+export const UPDATE_JOB = 'ADD_JOB';
+export const DELETE_JOB = 'DELETE_JOB';
+export const JOB_LOADING = 'JOB_LOADING';
+export const GET_US_STATES = "GET_US_STATES";
