@@ -68,7 +68,7 @@ class JobModal extends Component {
   };
   getAllStates=()=>{
     const {usStates} = this.props.job;
-    console.log(`US States in render in modal`,usStates);
+    //console.log(`US States in render in modal`,usStates);
     
     
 
